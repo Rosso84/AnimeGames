@@ -6,7 +6,7 @@ NodeJS as runtime as well as Express framework, WebPack, Babel, React, React-Rou
 
 
 ## Login
-There are 2 ways to log in, either by registering and through the website or through steam.
+There are 2 ways to log in, either by registering through the website or through steam.
 
 
 ### Steam
