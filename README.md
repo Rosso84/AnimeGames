@@ -2,7 +2,7 @@
 In this project I am creating a SPA(Single-Page-Application) webapplication with different games. You can register and sign in with the service provided by the webapp or login through steam. 
 
 For the moment I have created an offline quiz game using
-NodeJS as runtime as well as Express framework, WebPack, Babel, React, React-Router for routing between pages, Jest for testing, and Passport session authentication. The webapp does not use a real db but rather just using a map to stimulate one as I wanted to focus on the frontend side first so. passwords and userID are stored using Map and passwords are not hashed, meaning they are not safely stored. If you login through steam the webapp does not directly deal with any passwords related to steam so it is safe to use.  
+NodeJS as runtime as well as Express framework, WebPack, Babel, React, React-Router for routing between pages, Jest for testing, and Passport session authentication. The webapp does not use a real database but rather just using a map to stimulate one as I wanted to focus on the frontend side first and passwords are not hashed, meaning they are not safely stored. If you login through steam the webapp does not directly deal with any passwords related to steam so it is safe to use. 
 
 
 ## Login
