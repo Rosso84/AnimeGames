@@ -1,0 +1,233 @@
+html,
+body {
+  margin: 0px;
+  background-color: rgb(243, 239, 231);
+  color: rgb(71, 53, 25);
+  text-align: center;
+  position: relative;
+  font-size: 1em;
+}
+
+
+/*---Header---*/
+
+.headerBar {
+  margin-top: 30px;
+}
+
+.btn {
+  border: 2px solid rgb(30, 30, 30);
+  border-radius: 5px;
+  background-color: rgb(207, 205, 200);
+  color: rgb(71, 53, 25);
+  text-decoration: none;
+  padding: 5px;
+  margin: 5px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.btnPart {
+  float: right;
+  margin: 30px;
+}
+
+.home {
+  float: left;
+  margin: 30px;
+}
+
+
+.logOutBtn {
+  float: right;
+  border: 2px solid rgb(30, 30, 30);
+  border-radius: 5px;
+  background-color: rgb(207, 205, 200);
+  color: rgb(71, 53, 25);
+  text-decoration: none;
+  padding: 5px;
+  margin: 35px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.loggedInUserAvatar{
+  float: right;  
+  position: relative;
+  width: 80px;
+  height: 80px;
+
+}
+
+.username{
+  float: right;
+  position: relative;
+  top: 60px;
+  right: 60px;
+  font-size: larger;
+}
+
+
+.btn_steam_login{
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+
+/*--Errors--*/
+
+.notLoggedInMsg {
+  display: inline;
+}
+
+.errorMsg {
+  color: red;
+  font-size: 2em;
+}
+
+
+
+/*--Not logged in homepage*--*/
+
+.games_header_text {
+  font-size: 3em;
+  border-bottom: 1px solid rgb(30, 30, 30);
+  padding-bottom: 0px;
+}
+
+.game_div{
+  margin-top: 5%;
+  margin-left: 29%;
+  width: fit-content;
+  height: fit-content;
+}
+
+.not_logged_in_Homepage_img{
+  position: relative;
+  left: 80px;
+}
+
+.not_logged_in_Homepage_image_tekst{
+  position: relative;
+  left: 80px;
+}
+
+
+
+/*--Logged in homepage-->*/
+
+.logged_in_menu{
+  position: relative;
+  left: 80px;
+  width: 500px;
+  height: 400px;
+}
+
+.choose_game_txt{
+  position: relative;
+  left:10px;
+}
+
+.quiz_img{
+  position: relative;
+  left: 50px;
+  width: 350px;
+  height: 350px;
+}
+
+.btn_pLay_quiz{
+  top: 0px;
+  left: 20px;
+  position: relative;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color:burlywood;
+  border-width: 2px;
+  border-style: solid;
+  font-size: large;
+}
+
+
+/*--Signup Page--*/
+
+.signupArea {
+  width: 100px;
+  padding-top: 50px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+
+
+
+
+/*----Quizgame page*/
+
+.quizgame_title{
+  font-size: 3em;
+  border-bottom: 1px solid rgb(30, 30, 30);
+  padding-bottom: 3px;
+}
+
+.gameBoard {
+  margin-top: 0px;
+  width: 600px;
+  border-width: 5px;
+  border-style: solid;
+  background-color: rgb(71, 69, 69);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.question-txt{
+  color: blanchedalmond;
+  text-align: center;
+  font-size: x-large;
+}
+
+.answer-btn {
+  width: 600px;
+  height: 50px;
+  font-size: x-large;
+}
+
+.correct-answers-and-timer-div{
+  position: relative;
+  margin: auto;
+  width: 600px;
+  border-width: 5px;
+  border-style: solid;
+  background-color: whitesmoke;
+  height: 250px;
+  width: 600px;
+}
+
+.correct-answers{
+  text-align: center;
+  font-size: xxx-large;
+}
+
+.gameover-txt{
+  text-align: center;
+  font-size: xxx-large;
+}
+
+.timer-txt{
+  position: relative;
+  margin: auto;
+  text-align: center;
+  font-size: xxx-large;
+  /*animation:blinkingText 1.0s infinite;*/
+}
+/*@keyframes blinkingText{
+	0%{		color: rgb(0, 0, 0);	}
+	25%{	color: transparent;	}
+	50%{	color: transparent;	}
+	75%{	color:transparent;	}
+	100%{	color: rgb(0, 0, 0);	}
+}*/
+
+
