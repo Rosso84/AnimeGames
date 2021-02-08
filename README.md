@@ -40,6 +40,13 @@ https://developer.valvesoftware.com/wiki/Steam_Web_API/Feedback#API_Consideratio
 
 
 #### Steam errors
+
+If you get the errormessage:
+       
+       403 Error: Check your API key is correct
+
+Try to restart your server and make sure you use the right api key and dont leave any spaces in. 
+
 If you get the error message when trying to login:
 
         'Something Went Wrong, We were unable to service your request. Please try again later.
