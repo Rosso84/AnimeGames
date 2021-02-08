@@ -89,6 +89,11 @@ From there you can type:
 
      $ yarn run start or $npm run start 
 
+You might at first have to run 
+
+     $ yarn run dev  or  $npm run dev
+
+but they should both work. Difference is that 'start' will run it faster.
 
 The webapp will now be available locally at https://localhost:8080 on your broswer.
 
