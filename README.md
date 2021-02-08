@@ -62,9 +62,9 @@ First you need to install a few things:
 
 -a git bash terminal if on windows: https://gitforwindows.org/. If you have a OSX just search for  terminal and use that.
 
--download and install NodeJs runtime. visit : https://nodejs.org/en/download/
+-download and install NodeJs runtime (I use version 14.5.0). visit : https://nodejs.org/en/download/     
 
--and Yarn/Npm Cli:  https://classic.yarnpkg.com/en/docs/install/#windows-stable .
+-and Yarn/Npm Cli (I use yarn version 1.17.3)  https://classic.yarnpkg.com/en/docs/install/#windows-stable .
 
  
 Now just open up a gitbash terminal or just terminal on mac and navigate to root of application folder Anime-games/
