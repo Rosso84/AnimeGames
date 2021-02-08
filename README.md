@@ -46,6 +46,7 @@ If you get the errormessage:
        403 Error: Check your API key is correct
 
 Try to restart your server and make sure you use the right api key and dont leave any spaces in. 
+If the error keeps showing than this is most likely an issue on Steam server.
 
 If you get the error message when trying to login:
 
