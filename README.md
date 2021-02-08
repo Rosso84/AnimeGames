@@ -79,14 +79,15 @@ Now just open up a gitbash terminal or just terminal on mac and navigate to root
 
 Now type type 
 
-     $yarn install
+     $yarn install  or  $npm install
+    
  
 
 and wait for it to install all node module dependencies provided inside package.json file. This will create a node_module folder containing all libraries.
 
 From there you can type: 
 
-        $ yarn run dev
+        $ yarn run start or $npm run start 
 
 
 The webapp will now be available locally at https://localhost:8080 on your broswer.
@@ -104,7 +105,7 @@ The results should now be available from the terminal.
 There is also a Dockerfile prepared to run it as an image on e.g Docker container either locally or on Kubernetes ,webapp in cloud or infrastructures like Concourse pipelines or Jenkins.
 
 
-## future goals
+## Future goals
 For the moment I am finishing the backend side which is to create the missing real DB using mySql. I will start by creating it locally using mysql Workbench (see: https://www.mysql.com/products/workbench) and eventually transfer data to a file which later can e.g be deployed to a File storage in Cloud.
 I used this tutorial to install it on my mac osx: https://www.youtube.com/watch?v=zbK8cNS_cg0&t=661s
 
