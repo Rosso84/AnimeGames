@@ -87,7 +87,7 @@ and wait for it to install all node module dependencies provided inside package.
 
 From there you can type: 
 
-        $ yarn run start or $npm run start 
+     $ yarn run start or $npm run start 
 
 
 The webapp will now be available locally at https://localhost:8080 on your broswer.
@@ -95,7 +95,7 @@ The webapp will now be available locally at https://localhost:8080 on your brosw
 There is also som tests just to illustrate. To run tests just type: 
 
 
-        $ yarn run test
+    $ yarn run test
 
 
 The results should now be available from the terminal. 
