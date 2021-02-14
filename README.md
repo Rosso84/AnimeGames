@@ -30,7 +30,7 @@ Ones you have done that you can view all the data that has been fetched from a s
 that can be used for different things depending on your purposes for using Steam. 
 
 #### API Considerations
-Currently, the "Steam Web API" isn't very forgiving to web developers. There is a lack of support for the JSONP protocol and the API's acceptable usage policy requires that the API key is not to be shared. As described, using this API key inside of a Javascript file (which is downloaded in full source by the client) would be against the policy that Valve has provided. This requires that anyone wanting to create a web site that makes use of this data would be required to run a proxy (which I have personally done) in order to properly hide the API key. This could be remedied by changing the usage policy to allow "sharing" of the key, or to simply provide a mechanism that provides public keys that work along-side the private ones.
+Currently, the "Steam Web API" isn't very forgiving to web developers. There is a lack of support for the JSONP protocol and the API's acceptable usage policy requires that the API key is not to be shared. As described, using this API key inside of a Javascript file (which is downloaded in full source by the client) would be against the policy that Valve has provided. This requires that anyone wanting to create a web site that makes use of this data would be required to run a proxy in order to properly hide the API key. This could be remedied by changing the usage policy to allow "sharing" of the key, or to simply provide a mechanism that provides public keys that work along-side the private ones.
 Read for more information at:  
 
 https://developer.valvesoftware.com/wiki/Steam_Web_API/Feedback#API_Considerations_for_Web_Developers 
