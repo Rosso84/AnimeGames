@@ -18,7 +18,7 @@ Ones you have the key navigate to src/server/steam/, open steamConfig.js file an
         
         apiKey: 'paste your Steam API here'   (between the ' ')
 
-Now run the app and click on 'login' and then click on 'sigup with steam'. 
+Now run the app and click on 'login' and then click on 'signup with steam'. 
 Ones you have done that you can view all the data that has been fetched from a steam user on the terminal such as 
 
 -Steamid
